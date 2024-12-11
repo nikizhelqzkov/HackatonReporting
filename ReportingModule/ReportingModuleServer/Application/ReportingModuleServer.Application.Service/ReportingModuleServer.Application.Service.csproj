@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\ReportingModuleServer.Infrastructure.DataAccess.Shared\ReportingModuleServer.Infrastructure.DataAccess.Shared.csproj" />
+    <ProjectReference Include="..\..\ReportingModuleServer.Common\ReportingModuleServer.Common.csproj" />
+    <ProjectReference Include="..\..\ReportingModuleServer.Domain\ReportingModuleServer.Domain.csproj" />
+    <ProjectReference Include="..\ReportingModuleServer.Application.Dto\ReportingModuleServer.Application.Dto.csproj" />
+    <ProjectReference Include="..\ReportingModuleServer.Application.Service.Shared\ReportingModuleServer.Application.Service.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

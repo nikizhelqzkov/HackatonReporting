@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="14.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\ReportingModuleServer.Application.Dto\ReportingModuleServer.Application.Dto.csproj" />
+    <ProjectReference Include="..\..\Application\ReportingModuleServer.Application.Service.Shared\ReportingModuleServer.Application.Service.Shared.csproj" />
+    <ProjectReference Include="..\..\Application\ReportingModuleServer.Application.Service\ReportingModuleServer.Application.Service.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ReportingModuleServer.Infrastructure.DataAccess.Shared\ReportingModuleServer.Infrastructure.DataAccess.Shared.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ReportingModuleServer.Infrastructure.DataAccess.Sql\ReportingModuleServer.Infrastructure.DataAccess.Sql.csproj" />
+    <ProjectReference Include="..\..\ReportingModuleServer.Common\ReportingModuleServer.Common.csproj" />
+  </ItemGroup>
+
+</Project>
